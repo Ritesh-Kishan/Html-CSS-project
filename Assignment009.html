@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment009</title>
+</head>
+<link rel="stylesheet" href="Assignment009.css">
+<body>
+    <!-- This is the total conatiner of the task manager -->
+    <div class="container"> 
+        <!-- This is for the input field of the task -->
+        <header>
+        <div class="input-field">
+            <fieldset id="fieldSet" class="fieldSet">
+                <label for="text" class="labelText">Enter name of task &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="input1" class="inputF1"></label><br><br>
+                <label for="text" class="labelText">Enter description of the task &nbsp;&nbsp;&nbsp;<input type="text" id="input2" class="inputF1"></label>
+                <button class="Submit-btn" id="submit">Submit</button>
+                <br>
+                <div class="prompt-msg" id="prompt"></div>
+            </fieldset>
+        </div>
+        </header>
+        <!-- This field is for the display of the uncompleted task -->
+        <section>
+            <div class="uncompleted-task" id="uncompleted_task">
+                <h2 class="task-header">Uncompleted tasks</h2>
+
+            </div>
+        </section>
+        <!-- This field is for the dispkay of the completed task -->
+        <section>
+        <div class="completed-task" id="completed_task">
+            <h2 class="task-header">Completed tasks</h2>
+        </div>
+        </section>
+    </div>
+    
+    <script src="Assignment009.js"></script>
+</body>
+</html>
